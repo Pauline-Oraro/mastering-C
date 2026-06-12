@@ -15,6 +15,7 @@ This repository tracks my structured, week-by-week journey through C. Each week 
 | Week | Topic | Status |
 |------|-------|--------|
 | Week 01 | Setting Up & Hello World | ✅ Done |
+| Week 02 | Variables, Data Types, Type Conversion, Constants, Booleans and Operators. | ✅ Done |
 
 ---
 
