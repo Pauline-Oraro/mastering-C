@@ -6,7 +6,7 @@ A structured collection of C programs covering the foundational building blocks 
 
 ## 📘 Topics Covered
 
-### 1. Variables (`01_variables.c`)
+### 1. Variables (`variables.c`)
 
 Variables are named containers for storing data values. In C, every variable must have a declared type before use.
 
@@ -34,7 +34,7 @@ printf("My new age is %d\n", myAge);  // Output: My new age is 23
 
 ---
 
-### 2. Data Types (`02_data_types.c`)
+### 2. Data Types (`data-types.c`)
 
 C is a statically typed language — every variable needs a type that defines how much memory it uses and what values it can hold.
 
@@ -67,7 +67,7 @@ printf("Pi is %lf\n", myPreciseDecimal);
 
 ---
 
-### 3. Type Conversion (`03_type_conversion.c`)
+### 3. Type Conversion (`type-conversion.c`)
 
 Type conversion changes a value from one data type to another.
 
@@ -91,7 +91,7 @@ Use explicit casting when precision and control matter.
 
 ---
 
-### 4. Constants (`04_constants.c`)
+### 4. Constants (`constants.c`)
 
 The `const` keyword makes a variable read-only. Once assigned, its value cannot be changed.
 
@@ -118,7 +118,7 @@ printf("There are %d days in a week.\n", DAYS_IN_WEEK);
 
 ---
 
-### 5. Operators (`05_operators.c`)
+### 5. Operators (`operators.c`)
 
 Operators perform operations on variables and values. C groups them into several categories.
 
@@ -180,7 +180,7 @@ printf("%d\n", isLoggedIn || isAdmin);   // 1 — at least one is true
 
 ---
 
-### 6. Booleans (`06_booleans.c`)
+### 6. Booleans (`booleans.c`)
 
 C does not have a built-in `bool` type in older standards. You must include `<stdbool.h>` to use it.
 
